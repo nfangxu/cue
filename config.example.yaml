@@ -1,0 +1,22 @@
+# The environment of the application, one of production, development, staging, testing or local
+env: local
+
+# The gRPC address
+grpc:
+  addr: :9090
+
+# The name of the application
+name: app
+
+# The version of the application
+version: 0.1.0
+
+# The http address
+http:
+  addr: :8080
+
+# The global logging level and format
+log:
+  format: logfmt
+  level: debug
+
